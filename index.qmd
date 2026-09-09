@@ -1,6 +1,9 @@
 ---
 title: "Kade Schneider"
 ---
+![Hello, I'm Kade from the MDSCL program at UBC. I did my undergraduate degree at UBC as well, so I'm familiar with the campus if you have any questions. I did a broad degree in my undergrad which I'm very grateful for but I figured it's time to narrow in, which is why I'm here. I'm looking forward to learning lots and hope to become a better job prospect. I'm from Philadelphia. I miss my dog. I speak French. I cook a mean burger. Thank you for reading.](images/gitprofileimage.jpg){width=250px}
+
+
 
 This is a Quarto website.
 

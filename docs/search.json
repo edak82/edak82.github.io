@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "About this site"
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 8, 2026\n\n\nKade Schneider\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kade Schneider",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hello, I’m Kade from the MDSCL program at UBC. I did my undergraduate degree at UBC as well, so I’m familiar with the campus if you have any questions. I did a broad degree in my undergrad which I’m very grateful for but I figured it’s time to narrow in, which is why I’m here. I’m looking forward to learning lots and hope to become a better job prospect. I’m from Philadelphia. I miss my dog. I speak French. I cook a mean burger. Thank you for reading.\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Figure 1\n\n\nI’m in the middle of my second week of MDSCL and thus far I’m very pleased with how it’s gone for me. Orientation rattled me a bit with every other sentence coming out of someone’s mouth pertaining to the rigor of this program– not that I disagree with them–, but I think the workflow is very in tune with what I was looking for.\nI have had far less busy times in my life where I feel like my brain was always swarming with thoughts about the few things I was keeping track of all day long. My brain likes to be on top of things and organized, so without a way to put a cap on things, my brain is always worrying. Though MDSCL has required long hours, when I finally finish, I can go home and take the evening or weekend off– not just physically but also mentally (see Figure 1). The workflow very much allows for a separation between school and not school that really lets me appreciate my time off without having me worrying at all times. And that is the time off that I believe will let me recharge and prevent any burnout this year. Fingers crossed. I know I’m not in the thick of it yet, but I’m hopeful.\nOtherwise, the part that surprised me the most is how great the people have been. Not that I expected them to be unfriendly, but the sense of camaraderie I feel with everyone in my classes and labs is unmatched. The shared adversity/trauma bonding has made it really easy to befriend classmates and aid one another through the program."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I never really know what it was I wanted to do growing up. I came to UBC undecided, and in my second year, a series of events led me to the Cognitive Systems major, an interdisciplinary program focused on bridging the gap between natural systems (like the brain) and artificial ones (computer). The breadth of this program was perfect for teaching me how to think and how to learn, which I believe is the most underrated resource that an undergraduate program can equip students with. Additionally, I was involved in varied experiences from linguistic lab work, to leading my major’s student society, to work building college course curricula as a project assistant. These opportunities brought out some of my best qualities as someone very adept navigating institutions and dynamic environments. However, I felt I needed some expertise in a singular field to apply my strengths towards a workplace environment."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I never really know what it was I wanted to do growing up. I came to UBC undecided, and in my second year, a series of events led me to the Cognitive Systems major, an interdisciplinary program focused on bridging the gap between natural systems (like the brain) and artificial ones (computer). The breadth of this program was perfect for teaching me how to think and how to learn, which I believe is the most underrated resource that an undergraduate program can equip students with. Additionally, I was involved in varied experiences from linguistic lab work, to leading my major’s student society, to work building college course curricula as a project assistant. These opportunities brought out some of my best qualities as someone very adept navigating institutions and dynamic environments. However, I felt I needed some expertise in a singular field to apply my strengths towards a workplace environment."
+  },
+  {
+    "objectID": "about.html#why-data-science",
+    "href": "about.html#why-data-science",
+    "title": "About",
+    "section": "Why Data Science",
+    "text": "Why Data Science\nThe linguistic and logical components of my undergraduate degree were by far the most appealing to me, so when I found out about UBC’s MDS Computational Linguistics and realized how relevant it is to cutting edge work done around the world I was immediately interested. In this Masters Degree, I’m hoping to learn more about systems I only had a superficial understanding of previously, and I hope to achieve some hard skills necessary to make myself a strong candidate in the workforce. I still want to maintain a rather broad set of options for what I want to do with this degree but I do believe it will lead me down a path I thouroughly enjoy."
+  },
+  {
+    "objectID": "about.html#outside-of-mdscl",
+    "href": "about.html#outside-of-mdscl",
+    "title": "About",
+    "section": "Outside of MDSCL",
+    "text": "Outside of MDSCL\nOutside of school, I like to draw, do crossword puzzles, and run in my free time. I like going up the stairs and I like the rain. I love learning, whether it be how to cook, a new language, or about how they invented yogurt; I really enjoy amassing knowledge I think it’s a great way to better myself."
   }
 ]
