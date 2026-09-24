@@ -1,0 +1,49 @@
+---
+title: "Penguin body mass (Python)"
+author: "Kade Schneider"
+date: 2026-09-23
+---
+
+## Introduction
+
+finds the beak volume by multiplying the beak length by the beak depth and dividing it by two (for triangle purposes)
+
+Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
+Palmer Station Antarctica LTER.
+
+## Loading everything in
+
+```{python}
+#| message: false
+#| warning: false
+import pandas as pd
+from palmerpenguins import load_penguins
+import matplotlib.pyplot as plt
+penguins = load_penguins()
+
+```
+
+## Removing NAs
+
+```{python}
+clean_penguins = penguins.dropna()
+
+```
+
+## Calculations
+
+```{python}
+clean_penguins["bill_size_mm_squared"] = clean_penguins["bill_length_mm"] * clean_penguins["bill_depth_mm"] /2
+clean_penguins
+```
+
+# Plotting
+
+```{python}
+#| label: fig-penguin-beak-size
+#| fig-cap: "Beak size of penguins by species."
+clean_penguins.boxplot(column="bill_size_mm_squared", by="species")
+plt.suptitle("")
+plt.ylabel("Beak Size")
+plt.show()
+```

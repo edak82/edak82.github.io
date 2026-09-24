@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 8, 2026\n\n\nKade Schneider\n\n\n\n\n\nNo matching items"
+    "text": "Penguin body mass (Python)\n\n\n\n\n\n\n\n\nSep 23, 2026\n\n\nKade Schneider\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin body mass (R)\n\n\n\n\n\n\n\n\nSep 23, 2026\n\n\nKade Schneider\n\n\n\n\n\n\n\n\n\n\n\n\nMy first weeks in MDS\n\n\n\n\n\n\n\n\nSep 8, 2026\n\n\nKade Schneider\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -14,11 +14,88 @@
     "text": "Hello, I’m Kade from the MDSCL program at UBC. I did my undergraduate degree at UBC as well, so I’m familiar with the campus if you have any questions. I did a broad degree in my undergrad which I’m very grateful for but I figured it’s time to narrow in, which is why I’m here. I’m looking forward to learning lots and hope to become a better job prospect. I’m from Philadelphia. I miss my dog. I speak French. I cook a mean burger. Thank you for reading.\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "posts/penguins_python/index.html",
+    "href": "posts/penguins_python/index.html",
+    "title": "Penguin body mass (Python)",
+    "section": "",
+    "text": "finds the beak volume by multiplying the beak length by the beak depth and dividing it by two (for triangle purposes)\nData: Palmer Penguins, Palmer Station Antarctica LTER."
+  },
+  {
+    "objectID": "posts/penguins_python/index.html#introduction",
+    "href": "posts/penguins_python/index.html#introduction",
+    "title": "Penguin body mass (Python)",
+    "section": "",
+    "text": "finds the beak volume by multiplying the beak length by the beak depth and dividing it by two (for triangle purposes)\nData: Palmer Penguins, Palmer Station Antarctica LTER."
+  },
+  {
+    "objectID": "posts/penguins_python/index.html#loading-everything-in",
+    "href": "posts/penguins_python/index.html#loading-everything-in",
+    "title": "Penguin body mass (Python)",
+    "section": "Loading everything in",
+    "text": "Loading everything in\n\nimport pandas as pd\nfrom palmerpenguins import load_penguins\nimport matplotlib.pyplot as plt\npenguins = load_penguins()"
+  },
+  {
+    "objectID": "posts/penguins_python/index.html#removing-nas",
+    "href": "posts/penguins_python/index.html#removing-nas",
+    "title": "Penguin body mass (Python)",
+    "section": "Removing NAs",
+    "text": "Removing NAs\n\nclean_penguins = penguins.dropna()"
+  },
+  {
+    "objectID": "posts/penguins_python/index.html#calculations",
+    "href": "posts/penguins_python/index.html#calculations",
+    "title": "Penguin body mass (Python)",
+    "section": "Calculations",
+    "text": "Calculations\n\nclean_penguins[\"bill_size_mm_squared\"] = clean_penguins[\"bill_length_mm\"] * clean_penguins[\"bill_depth_mm\"] /2\nclean_penguins\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\nbill_size_mm_squared\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n365.585\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n343.650\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n362.700\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n354.155\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nmale\n2007\n404.790\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n339\nChinstrap\nDream\n55.8\n19.8\n207.0\n4000.0\nmale\n2009\n552.420\n\n\n340\nChinstrap\nDream\n43.5\n18.1\n202.0\n3400.0\nfemale\n2009\n393.675\n\n\n341\nChinstrap\nDream\n49.6\n18.2\n193.0\n3775.0\nmale\n2009\n451.360\n\n\n342\nChinstrap\nDream\n50.8\n19.0\n210.0\n4100.0\nmale\n2009\n482.600\n\n\n343\nChinstrap\nDream\n50.2\n18.7\n198.0\n3775.0\nfemale\n2009\n469.370\n\n\n\n\n333 rows × 9 columns"
+  },
+  {
     "objectID": "posts/first-weeks/index.html",
     "href": "posts/first-weeks/index.html",
     "title": "My first weeks in MDS",
     "section": "",
     "text": "Figure 1\n\n\nI’m in the middle of my second week of MDSCL and thus far I’m very pleased with how it’s gone for me. Orientation rattled me a bit with every other sentence coming out of someone’s mouth pertaining to the rigor of this program– not that I disagree with them–, but I think the workflow is very in tune with what I was looking for.\nI have had far less busy times in my life where I feel like my brain was always swarming with thoughts about the few things I was keeping track of all day long. My brain likes to be on top of things and organized, so without a way to put a cap on things, my brain is always worrying. Though MDSCL has required long hours, when I finally finish, I can go home and take the evening or weekend off– not just physically but also mentally (see Figure 1). The workflow very much allows for a separation between school and not school that really lets me appreciate my time off without having me worrying at all times. And that is the time off that I believe will let me recharge and prevent any burnout this year. Fingers crossed. I know I’m not in the thick of it yet, but I’m hopeful.\nOtherwise, the part that surprised me the most is how great the people have been. Not that I expected them to be unfriendly, but the sense of camaraderie I feel with everyone in my classes and labs is unmatched. The shared adversity/trauma bonding has made it really easy to befriend classmates and aid one another through the program."
+  },
+  {
+    "objectID": "posts/penguins_r/index.html",
+    "href": "posts/penguins_r/index.html",
+    "title": "Penguin body mass (R)",
+    "section": "",
+    "text": "finds the beak volume by multiplying the beak length by the beak depth and dividing it by two (for triangle purposes)\nData: Palmer Penguins, Palmer Station Antarctica LTER."
+  },
+  {
+    "objectID": "posts/penguins_r/index.html#introduction",
+    "href": "posts/penguins_r/index.html#introduction",
+    "title": "Penguin body mass (R)",
+    "section": "",
+    "text": "finds the beak volume by multiplying the beak length by the beak depth and dividing it by two (for triangle purposes)\nData: Palmer Penguins, Palmer Station Antarctica LTER."
+  },
+  {
+    "objectID": "posts/penguins_r/index.html#loading-everything-in",
+    "href": "posts/penguins_r/index.html#loading-everything-in",
+    "title": "Penguin body mass (R)",
+    "section": "Loading everything in",
+    "text": "Loading everything in\n\nlibrary(palmerpenguins)\nlibrary(tidyverse)\nlibrary(dplyr)\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "posts/penguins_r/index.html#removing-nas",
+    "href": "posts/penguins_r/index.html#removing-nas",
+    "title": "Penguin body mass (R)",
+    "section": "Removing NAs",
+    "text": "Removing NAs\n\npenguin_clean &lt;- penguins |&gt; drop_na()"
+  },
+  {
+    "objectID": "posts/penguins_r/index.html#sorting-data-adding-column",
+    "href": "posts/penguins_r/index.html#sorting-data-adding-column",
+    "title": "Penguin body mass (R)",
+    "section": "Sorting Data + Adding Column",
+    "text": "Sorting Data + Adding Column\n\nsorted_penguins &lt;- penguin_clean |&gt; \n  mutate(bill_size_mm_squared = bill_length_mm * bill_depth_mm / 2) |&gt; \n  arrange(bill_size_mm_squared)\n\nsorted_penguins\n\n# A tibble: 333 × 9\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Dream               32.1          15.5               188        3050\n 2 Adelie  Dream               33.1          16.1               178        2900\n 3 Adelie  Torgersen           35.2          15.9               186        3050\n 4 Gentoo  Biscoe              40.9          13.7               214        4650\n 5 Gentoo  Biscoe              42.9          13.1               215        5000\n 6 Gentoo  Biscoe              42            13.5               210        4150\n 7 Adelie  Biscoe              35.5          16.2               195        3350\n 8 Gentoo  Biscoe              43.3          13.4               209        4400\n 9 Adelie  Dream               34            17.1               185        3400\n10 Adelie  Torgersen           36.2          16.1               187        3550\n# ℹ 323 more rows\n# ℹ 3 more variables: sex &lt;fct&gt;, year &lt;int&gt;, bill_size_mm_squared &lt;dbl&gt;"
+  },
+  {
+    "objectID": "posts/penguins_r/index.html#plotting-findings",
+    "href": "posts/penguins_r/index.html#plotting-findings",
+    "title": "Penguin body mass (R)",
+    "section": "Plotting Findings",
+    "text": "Plotting Findings\n\nggplot(sorted_penguins, aes(x = species, y = bill_size_mm_squared)) +\n  geom_boxplot()\n\n\n\n\n\n\n\nFigure 1: Beak size of penguins by species."
   },
   {
     "objectID": "about.html",
